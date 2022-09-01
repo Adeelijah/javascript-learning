@@ -1,0 +1,28 @@
+instead of creating several variables in a single operation
+we can simply create a single object(JSON) and store all related
+variables in key-value pairs between curly braces
+
+example is shown in day2.js file
+
+classes 
+
+building objects are okay for simple or fairly small projects 
+but when dealing with bigger projects its not the best option 
+the class is more useful in this instance 
+
+take for example, you want to automatically build an object for
+each user who opens an account, you can create a class of objects 
+with the parameters already spelt out and an object will the spelt
+out immediately omeone creates an account
+
+inn essence, having a class of account allows you to create new account
+objects quicker and easier
+
+example is shown in day2.js file
+
+
+Arrays
+
+Array is a type of collection in javascript. it can store bot variables
+and objects 
+while the object is written within curly braces, arrays are squared brackets

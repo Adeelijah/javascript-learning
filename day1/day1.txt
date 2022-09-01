@@ -1,0 +1,37 @@
+there are three primitive data types
+
+numbers  //integers, positive, negatives and floats
+strings  //they consist of letters contained in quotes
+booleans //the simplest primitive data type True or False
+
+Theres always a problem with floating point arithemetic in all programming languages
+so to avoid your calculations throwing this error, multiply all floats by a hundred
+
+example 
+console.log(0.2 + 0.2);
+this will give acorrect answer but
+
+console.log(0.1 + 0.2);
+will throw an error 
+
+to be on a safer side multiply floats by 100
+instead to 
+let price = 12.99;
+
+use 
+let price = 1299
+then you can run a function to return it to decimal later
+
+concatenation of strings
+strings can be added but they do not function in the same way as numbers
+
+example 
+let firstName = 'Elijah'
+let lastName = "Tobi"
+
+let name = (firstName + lastName)
+this will concatenate (add) the lastName to the end of firstName
+resulting in something like this 
+name = "ElijahTobi"
+to add a space in-between
+let name = (firstName + ' ' + lastName)
