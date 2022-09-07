@@ -51,3 +51,13 @@ let newCar = { name: 'Toyota', color: 'black' };
 let oldCar = { name: 'Mazda', color: 'ash' };  //these are variables
 
 let car = [newCar, oldCar]; //this is an array
+
+//lets create a new array to demonstrate adding removing and getting the length of arrays
+
+let people = ['paul', 'titii', 'mike', 'juwon'];
+
+people.push('bimbo', 'tiwa'); //this will add to the end of the array
+people.unshift('friday'); //the new element will be added to the begining of the array
+people.pop(); //this will remove the last element of the array
+
+//Done for the day

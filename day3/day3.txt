@@ -1,0 +1,13 @@
+today we continue to learn about collrctions in javascript
+starting with sets and maps
+
+sets are unordered lists which means we cannot reliably retrieve
+elements as they do not have a defined index of position 
+an object or collection in sets can only appear once
+though unordered, sets are useful in several things like 
+storing who is online to determine who is not online
+
+maps on the other hand are ordered lists of key value pair elements, though similar to objects
+they have huge differences. while objects have keys in strings alone but any primitive data type
+its content is easily accessible and you can modify its key value pairs in certain ways
+

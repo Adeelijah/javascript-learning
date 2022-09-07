@@ -1,0 +1,29 @@
+conditions to control the flow of programs
+
+conditional statements 
+if else statements
+  they are known as conditional statements that execute if the given
+  parameters are met. for example if a user is logged in = take them to their homepage 
+  else take them to the login page
+
+instead of using the boolean values all the time we can also use the comparison operators
+ greater tham >
+ less than <
+ equal to =
+ greater than equal to >=
+ less than equal to <=
+
+when using expressions in if statements 
+== is not the same as === because the latter checks for the type of the data
+
+the tripple equals sign will authenticate if both data is of the same origin 
+== is loose equality while
+=== is strict equality
+
+similarly there are two not equal to signs 
+!= and !== whit the same distinctions
+
+
+switch 
+enumerations
+

@@ -26,3 +26,16 @@ Arrays
 Array is a type of collection in javascript. it can store bot variables
 and objects 
 while the object is written within curly braces, arrays are squared brackets
+
+dealing with arrays 
+
+imagine weve created an array and we want to add an element to it we can use 2 methods 
+.push or .unshift
+
+arrays are ordered lists so adding elements to it will go to the end if we use the .push notation
+to add an element to the beginning we use the .unshift methods
+
+
+Removing elements from arrays
+we use the .pop() method to remove the last element of the array
+the .length notation will give the total elements in an array
