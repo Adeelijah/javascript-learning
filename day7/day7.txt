@@ -1,0 +1,32 @@
+A function is a block of code with a specific purpose to which you give a name. When you call that function, 
+you execute the code it contains. For example, in the screencast videos, you've seen me call the  
+console.log()  function, which contains code that prints stuff to the console.
+
+Many functions require variables to do their job. When you create or declare a function,
+you list the variables it requires to do its job: you set parameters for the function.
+
+Then, when you call the function, you pass it values for those parameters. 
+The values are called arguments.
+
+
+Hi there, it's one thing to create websites it is another thing to create a professional and yet appealing website tailored to meet the needs of the visitors and yourself.
+
+
+
+I will create a mobile-friendly and outstanding one-page clickfunnel, portfolio, display gallery or a full website which will be tailored toward converting visitors into prospective clients.
+
+
+
+What will you get?
+
+
+
+
+
+Why work with me?
+
+	I'm a young, imaginative, and unique web designer who is passionate about giving the best at every opportunity.
+
+
+
+I look forward to working with you Thanks!

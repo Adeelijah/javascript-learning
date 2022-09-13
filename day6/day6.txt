@@ -1,0 +1,11 @@
+while loops
+ while the argument is true, the loop continues to run until
+ the argument is false
+
+solving for runtime errors
+wrapping our arguments in anif else statement
+this will first check if the values we are logging to the cosole are existent and do the neccessary
+
+another method is the try catch statement
+ this will first try the statement if its true then throw an error if neccessary
+ so this doesnt crash your code or give any error in the program

@@ -26,3 +26,41 @@ if (sales > numberOfProducts) {
 } else {
     console.log('we need to sell more');
 }
+
+
+//logical operators
+//using the logical and operator
+
+let userLoggedIn = true
+let userHasPremiumAccount = false
+let userHasMegaPremiumAccount = true
+
+if (userLoggedIn || userHasPremiumAccount) {
+    console.log('user has upgraded');
+}
+
+//the || operator makes sure at least one condition is true
+
+if (userLoggedIn && userHasMegaPremiumAccount) {
+    console.log('user has paid account');
+}
+//for the && operator, both conditions has to be true before the console is logged
+
+//the not operator
+if (!userHasMegaPremiumAccount) {
+    console.log('access denied!');
+}
+//this will check if the condition is false
+
+//combining logical operators
+let peopleAvailable = 5
+const neededPeople = 10
+let messageLine = ''
+
+if (peopleAvailable > 0 && peopleAvailable < neededPeople) {
+    messageLine = 'we need more people'
+} else {
+    messageLine = 'we have enough!'
+}
+
+console.log(messageLine);

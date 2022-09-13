@@ -1,0 +1,33 @@
+variable scoping
+
+any variable that is declared in the inner scope is not available to the parent scope 
+because they only exist within the inner code block. the console.log will therefore 
+throw an error because the logged variable does not exist in the parent block.
+
+switch statements
+if else statements are good but when dealing with larger data and you need to run several if else
+statements which wont make our code readable enough. this is where the switch statement comes in
+with switch statements we can continue to pass our arguments and instances in more readable fashion 
+
+loops
+
+loops allow us to repeat a line of code as many times as we need or is neccessary for the code to run
+there are two variations of loops
+
+enumerated loops (for loops)
+enumerated loops comes in two types
+indexed
+    here we can repeeat a block of code a pre-defined number of times of access a collection using its index number
+    in essence each item in the collection is indexed and they are called based on their index number
+and non-indexed loops
+    in this case the items are not indexed they are just called by whats next in no particular order
+    until all items are called
+
+conditional loops (while loops)   
+    conditional loops are used on the condition that a certain argument is yet to be met
+    conditional loops comes in two flavours 
+pre-validation
+    here we have to validate the condition before the execution of the code block
+
+and post-validation
+    the validation is done after the execution of the code block
