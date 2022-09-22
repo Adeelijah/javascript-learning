@@ -9,25 +9,57 @@ Then, when you call the function, you pass it values for those parameters.
 The values are called arguments.
 
 
-Hi there, it's one thing to create websites it is another thing to create a professional and yet appealing website tailored to meet the needs of the visitors and yourself.
+ive been very much off lately which is why im dedicating the whole of today to learning 
+i loog to cover 2 or more chapters today 
 
 
-
-I will create a mobile-friendly and outstanding one-page clickfunnel, portfolio, display gallery or a full website which will be tailored toward converting visitors into prospective clients.
-
+adding instance methods to classes 
 
 
-What will you get?
+we can empower our classes by adding an instance method 
+after creating a class, we cant do much with its values except 
+logging it to the console but with instances we can do a whole lot of new things
+like in the example in the js file first method that was called on the class was the showBalance method
+with which we can get the this.balance from the class without having to log it to the console
+the second method was more tricky where we added some more money into the account
+we declared the method and using (amount) as its parameter to represent any imput then we added the amount to 
+the initial balance after which we decided to show the new balance after the deposit
 
+the hardest method passed on the class was the withdrawal method
+the amount(its parameter) was checked against the initial balance with an if statement. if the amount requestd was greater than 
+the balance at hand, the withdrawal would be denied else the withdrawal will go through 
+after which the newbalance will be logged to the console
 
+note: Within a class body, the this keyword refers to the created instance of the class. In this example, it refers to newAccount.
 
+STATIC methods
+You don't need to add a constructor to your class, as you are not going to instantiate it. You have a method which:
+Prints a generic message.
+Accepts an argument and uses it to generate a message.
+Returns a value based on the arguments you send it.
+All of these different functionalities could be left to functions — the advantage of using static 
+class methods is to group them by category or type, for example.
 
+WRITING CLEAN FUNCTIONS 
+why do we need functions?
+	to write cleaner codes 
+	if theres a line of code being repeated then we need functions to house them and call when neccessary
+	if a function is used in more than one instance or makes the code lenghty we can break that function into two and call those functions in a glodal function
 
-Why work with me?
+Think of the messiest and least organized place in your home. It may just be a drawer, closet, or even a whole room.
+ How hard is it to find something in that place? If you've recently used it, it's may not so bad, but if it's been a while, things can get tricky.
+Things are the same, or worse, with code. If you haven't looked at it in a few months and you didn't write it cleanly,
+ it can take forever to remember which function does what, and how things all fit together.
+Now imagine that you inherited someone else's disorganized drawer, closet, or room, and they no longer live there. 
+This is what it is like to work on someone else's code when they haven't kept it clean!
 
-	I'm a young, imaginative, and unique web designer who is passionate about giving the best at every opportunity.
+Developer proverb: Always code as if the person who ends up maintaining it is a violent psychopath who knows where you live.
 
+refactoring code 
+changing the outlook but maintaining its functionality
 
-
-I look forward to working with you Thanks!
-
+CODE COMMENTING 
+	// is used for single line comment to explain what a line of code does
+	/* this is a 
+	** mutlti-line comment 
+	*/it allows you to explain what a function does in a bit more detail

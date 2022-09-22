@@ -1,0 +1,95 @@
+TESTING FUNCTIONS
+when building our applications we should make sure that our functionsdo what it says it should do
+for the purpose of doing this we can build helper functions which tests our real functions
+but as our programs get heavier and lenghtier building helper functions wont do the trick anymore
+this is where we need a test layer
+
+
+Generally, each unit is tested for a simple case, and then for one or more edge cases.
+
+For example, if you take a couple of functions from a previous chapter:
+
+const getWordCount = (stringToTest) => {
+  const wordArray = stringToTest.split(' ');
+  return wordArray.length;
+}
+
+const getLetterCount = (stringToTest) => {
+  const wordArray = stringToTest.split(' ');
+  let totalLetters = 0;
+  for (let word of wordArray) {
+    word.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "");
+    totalLetters += word.length;
+  }
+  return totalLetters;
+}
+Which cases would you check for each function here?
+getWordCount  — You  would check a string where 
+you know the number of words (simple case), 
+then perhaps an empty string, and a string 
+containing only spaces (edge cases).
+getLetterCount  — You would check string 
+where you know the number of letters (simple case);
+then try a string with only punctuation (edge case).
+You could write these tests as helper code:
+
+const testSimpleWordCount = () => {
+    const testString = 'I have four words!';
+    if (getWordCount(testString) !== 4) {
+        console.error('Simple getWordCount failed!');
+    }
+}
+
+const testEdgeWordCount = () => {
+    const testString = '             ';
+    if (getWordCount(testString) !== 0) {
+        console.error('Edge getWordCount failed!');
+    }
+}
+
+const testSimpleLetterCount = () => {
+    const testString = 'I have twenty one letters!';
+    if (getLetterCount(testString) !== 21) {
+        console.error('Simple getLetterCount failed!');
+    }
+}
+
+const testEdgeLetterCount = () => {
+    const testString = '")(&;//!!';
+    if (getLetterCount(testString) !== 0) {
+        console.error('Edge getLetterCount failed!');
+    }
+}
+I used  console.error()  instead of  console.log()  
+to have the messages show up as errors in the console.
+These are simple tests, and can be OK for quick checks, 
+but it is generally better to use a testing framework.
+Testing frameworks and libraries allow you to write whole test suites
+ to test your code automatically, using special functions and syntax.
+  Here is what the first two tests above might look like in certain frameworks:
+
+describe('getWordCount()', function() {
+    it('should find four words', function() {
+        expect(getWordCount('I have four words!').to.equal(4));
+    });
+    it('should find no words', function() {
+        expect(getWordCount('      ').to.equal(0));
+    });
+});
+
+INTEGRATION tests
+
+Integration tests check multiple functions or classes to make sure that they work together 
+as they are supposed to. The above image shows what can happen when the individual units work
+properly (both drawers open properly in isolation), but their integration in the surrounding
+system causes a malfunction.
+
+Functional tests
+Functional tests, also known as end-to-end (E2E) tests, check whole scenarios in context. 
+For example, a user signs in to your app, opens their notifications, and marks them all as read. 
+These tests also check any external resources your project may use, like a third-party payment system,
+for example.
+
+RECURSIUNS 
+When we dont know how many branches are on a data tree we tend to use recursions.
+it is a function that calls itself when the need arises till it reaches the end of a data tree 
