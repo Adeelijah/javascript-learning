@@ -17,3 +17,4 @@ saveBtn.addEventListener('click', () => {
     link.href = fileUrl;//passing fileUrl as href value of the link
     link.click();//clicking the link so the file can download
 })
+
