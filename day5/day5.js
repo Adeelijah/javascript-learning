@@ -11,10 +11,10 @@ console.log(welcomeMessage);
 //the above will throw an error because the welcomeMessage only exists in the if else block and not the parent block
 //to ratify this, we need to declare the welcome message in the parent block
 
-let manAtHome = true
+let knownUser = true
 let welcomeMessage = ''
 
-if (manAtHome) {
+if (knownUser) {
     welcomeMessage = 'welcome back';
 } else {
     welcomeMessage = 'welcome new user';
@@ -55,6 +55,26 @@ switch (firstUser.accountType) {
     default:
         console.log('account type unknown!');
 }
+
+for (let i = 1; i <= 10; i++) {
+    switch (i.length) {
+        case '1':
+            console.log('Gold medal!');
+            break;
+
+        case '2':
+            console.log('Silver medal!');
+            break;
+
+        case '3':
+            console.log('Bronze medal!');
+            break;
+
+        default:
+            console.log(i);
+            break;
+    }
+};
 //the default case will only be executed if the variable you are checking for does not match any of the listed values
 
 //for loops
